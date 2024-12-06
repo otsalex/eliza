@@ -147,9 +147,6 @@ importers:
       '@ai16z/plugin-evm':
         specifier: workspace:*
         version: link:../packages/plugin-evm
-      '@ai16z/plugin-goat':
-        specifier: workspace:*
-        version: link:../packages/plugin-goat
       '@ai16z/plugin-image-generation':
         specifier: workspace:*
         version: link:../packages/plugin-image-generation
@@ -1207,6 +1204,9 @@ importers:
 
   packages/plugin-somm:
     dependencies:
+      '@ai16z/adapter-postgres':
+        specifier: workspace:*
+        version: link:../adapter-postgres
       '@ai16z/eliza':
         specifier: workspace:*
         version: link:../core
