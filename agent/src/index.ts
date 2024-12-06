@@ -25,6 +25,8 @@ import {
 import { zgPlugin } from "@ai16z/plugin-0g";
 import { bootstrapPlugin } from "@ai16z/plugin-bootstrap";
 // import { buttplugPlugin } from "@ai16z/plugin-buttplug";
+import { sommPlugin } from "@ai16z/plugin-somm";
+
 import {
     coinbaseCommercePlugin,
     coinbaseMassPaymentsPlugin,
@@ -364,6 +366,7 @@ export function createAgent(
         evaluators: [],
         character,
         plugins: [
+            sommPlugin,
             bootstrapPlugin,
             getSecret(character, "CONFLUX_CORE_PRIVATE_KEY")
                 ? confluxPlugin

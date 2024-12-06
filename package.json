@@ -22,6 +22,7 @@
     "devDependencies": {
         "@commitlint/cli": "^18.4.4",
         "@commitlint/config-conventional": "^18.4.4",
+        "@types/node": "^22.10.1",
         "@typescript-eslint/eslint-plugin": "^8.16.0",
         "@typescript-eslint/parser": "^8.16.0",
         "concurrently": "9.1.0",
@@ -33,6 +34,7 @@
         "lerna": "8.1.5",
         "only-allow": "1.2.1",
         "prettier": "3.3.3",
+        "ts-node": "10.9.2",
         "turbo": "^2.3.3",
         "typedoc": "0.26.11",
         "typescript": "5.6.3",
@@ -52,6 +54,7 @@
         "@coinbase/coinbase-sdk": "^0.10.0",
         "amqplib": "0.10.5",
         "csv-parse": "^5.6.0",
+        "eliza": "0.0.1-2",
         "ollama-ai-provider": "^0.16.1",
         "optional": "^0.1.4",
         "pnpm": "^9.14.3",
