@@ -73,7 +73,7 @@ export const vaultTvlAction: Action = {
             const formattedValue = formatter.format(tvl);
 
             await callback({
-                text: "TVL for " + address + " on " + content.chain + " is " + formattedValue
+                text: "TVL for " + content.vault + " on " + content.chain + " is $" + formattedValue
             });
             return true;
         }

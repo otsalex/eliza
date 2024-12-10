@@ -39,12 +39,14 @@ Keep in mind that:
     Chain names could also be shortened - arbitrum-arb, optimism-opt, ethereum-eth.
     Only extract the values from the latest message.
 
-Also extract the chain from the message and respond with a JSON markdown block containing only the extracted values:
+Also extract the chain from the message and respond with a JSON markdown block containing only the extracted values.
+At last add the vault name as the vault, it should be one of the the vaults from above:
 
 \`\`\`json
 {
     "chain": "ethereum" | "arbitrum" | "optimism" | null,
     "address": string | null,
+    "vault": string | null,
 }
 \`\`\`
 `;
